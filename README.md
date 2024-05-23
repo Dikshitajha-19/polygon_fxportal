@@ -1,12 +1,12 @@
 # polygon_fxportal
 
-This project outlines the steps to generate a 5-item NFT collection using AI-generated art, deploy the NFTs on the Ethereum Goerli testnet, and then transfer them to the Polygon Mumbai network. Below are the detailed instructions and scripts required to accomplish these tasks.
+This project outlines the steps to generate a 5-item NFT collection using AI-generated art, deploy the NFTs on the Ethereum Sepolia testnet, and then transfer them to the Polygon Mumbai network. Below are the detailed instructions and scripts required to accomplish these tasks.
 
 ### Steps Overview
 
 1. **Generate a 5-item collection using DALLE 2 or Midjourney**
 2. **Store items on IPFS using pinata.cloud**
-3. **Deploy an ERC721 or ERC1155 to the Goerli Ethereum Testnet**
+3. **Deploy an ERC721 or ERC1155 to the Sepoia Ethereum Testnet**
 4. **Create a `promptDescription` function on the contract**
 5. **Map your NFT Collection using Polygon network token mapper**
 6. **Write a Hardhat script to batch mint all NFTs**
@@ -20,7 +20,7 @@ This project outlines the steps to generate a 5-item NFT collection using AI-gen
 - Node.js
 - Hardhat
 - MetaMask
-- Goerli and Mumbai Testnet ETH/MATIC for gas fees
+- Sepolia and Mumbai Testnet ETH/MATIC for gas fees
 - Pinata.cloud account
 - AI image generation access (DALLE 2 or Midjourney)
 
