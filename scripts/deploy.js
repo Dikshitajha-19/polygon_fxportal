@@ -24,14 +24,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
-/*
-
-npm i
-npm install dotenv --save
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
-node scripts/mint.js
-node .\scripts\approveDeposit.js
-
-*/
